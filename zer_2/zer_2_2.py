@@ -2,7 +2,6 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-# wykres zwykly z csv, tekst w rogu
 
 # df = pd.read_excel('ceny1.xlsx', index_col=0)
 df = pd.read_excel('ceny1.xlsx')

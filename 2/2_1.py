@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # zestaw 2
-# dwa wykresy obok siebie subplot
+# dwa wykresy obok siebie subplot, tytul
 width1 = [35, 45, 15, 40, 39]
 bars = ('A', 'B', 'C', 'D', 'E')
 x_pos = np.arange(len(bars))
