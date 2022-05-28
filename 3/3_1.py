@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # zestaw 3
-# dwa obok siebie horyzontalnie subplotSSS
+# dwa barh odwrotnie obok siebie horyzontalnie subplotSSS
 width1 = [-35, -20, -50, -30, -40]
 width2 = [37, 37, 40, 33, 36]
 bars = ('A', 'B', 'C', 'D', 'E')

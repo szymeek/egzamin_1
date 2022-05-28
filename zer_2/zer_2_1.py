@@ -1,7 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-# zestaw 4
 # # prosty wykres x3 liniowy, legenda
 x = np.arange(-7, 7, 0.1)
 y1 = 20 * np.sin(x)

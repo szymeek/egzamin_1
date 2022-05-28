@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # zestaw 2
-# dwa wykresy obok siebie subplot, tytul
+# dwa slupkowe poziome wykresy obok siebie subplot, tytul, zapis jpg
 width1 = [35, 45, 15, 40, 39]
 bars = ('A', 'B', 'C', 'D', 'E')
 x_pos = np.arange(len(bars))
@@ -20,5 +20,11 @@ plt.yticks(x_pos, bars)
 # do odwracania wykrsow
 plt.title('wykres prawy')
 
+# zapis jpg
+from PIL import Image
+plt.savefig('plot.png')
+im1 = Image.open('plot.png')
+im1 = im1.convert('RGB')
+im1.save('plot.jpg')
 
 plt.show()
