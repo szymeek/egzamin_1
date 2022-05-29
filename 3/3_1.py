@@ -19,10 +19,12 @@ ax1.set_title('wykres 1')
 # ax1.set_xticks([-50, 0])
 ax1.set_xticks(np.arange(-50, 1, step=10))
 # -50 do 1 bo przedział prawostronnie domkniety
+ax1.set_yticks(x_pos, bars)
 
 ax2.barh(x_pos, width2, color=['yellowgreen', 'mediumslateblue', 'orange', 'green', 'yellowgreen'])
 # ax2.set_xlabel('x')
 # ax2.set_ylabel('cos(x)')
 ax2.set_title('wykres 2')
+ax2.set_yticks(x_pos, bars)
 
 plt.show()
